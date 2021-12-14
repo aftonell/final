@@ -1,0 +1,60 @@
+.italic {
+    font-style: italic;
+}
+
+.font {
+    font-family: georgia;
+}
+
+.color {
+    color: darkgreen;
+}
+
+.center {
+    text-align: center;
+}
+
+.common {
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    font-family: georgia;
+    color: darkgreen;
+}
+
+.subheader {
+    float: right;
+}
+
+.footer {
+    bottom: 5px;
+    height: 10px;
+    left: 5px;
+    right: 5px;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    position: fixed;
+}
+
+.homebg {
+    background-image: url('../images/tableau-bg.jpg');
+    background-position: top center;
+    background-repeat: repeat; /* Chrome version */
+}
+
+.body {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
